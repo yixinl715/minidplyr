@@ -19,5 +19,5 @@ Title
 }
 \examples{
 filter2(iris, 1:3)
-filter2(iris, Species=='setosa')
+filter2(iris, iris$Species=='setosa')
 }
